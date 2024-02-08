@@ -1,0 +1,367 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f5f5f5; /* Light gray background color */
+}
+
+#left-div {
+    max-width: 500px;
+    color: #333; /* Dark text color */
+}
+
+.welcome-text {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.light-red-btn {
+    background-color: #ff6f61; /* Light red background color */
+}
+
+.black-btn {
+    background-color: #333; /* Dark gray background color */
+}
+
+#right-div {
+    flex-shrink: 0;
+    width: 50%;
+    margin-left: 50px;
+}
+
+#right-div img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for image */
+}
+
+#services-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+#services-section h2 {
+    font-size: 2.5em;
+    color: #333; /* Dark text color */
+}
+
+#services-section hr {
+    width: 50px;
+    border: 2px solid #333; /* Dark border color */
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    width: 30%; /* Adjust based on your design preferences */
+    margin-bottom: 30px;
+}
+
+.fruit-card {
+    background-color: #fff;
+    border: 1px solid #ddd; /* Light border color */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+.fruit-card:hover {
+    transform: scale(1.05); /* Increase size on hover */
+}
+
+.fruit-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.fruit-card h3 {
+    font-size: 1.5em;
+    color: #333; /* Dark text color */
+}
+
+.fruit-card p {
+    color: #666; /* Gray text color */
+    margin-top: 15px;
+}
+#fresh-fruits-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f5f5f5; /* Light gray background color */
+}
+
+.section-title {
+    font-size: 2.5em;
+    color: #333; /* Dark text color */
+}
+
+.section-line {
+    width: 50px;
+    border: 2px solid #333; /* Dark border color */
+    margin: 20px auto;
+}
+
+#fresh-fruits-section p {
+    font-size: 1.2em;
+    color: #666; /* Gray text color */
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col-md-6 {
+    width: 48%; /* Adjust based on your design preferences */
+    margin-bottom: 30px;
+}
+
+.fruit-info {
+    background-color: #fff;
+    border: 1px solid #ddd; /* Light border color */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+.fruit-info:hover {
+    transform: scale(1.05); /* Increase size on hover */
+}
+
+.fruit-info h3 {
+    font-size: 1.8em;
+    color: #333; /* Dark text color */
+}
+
+.fruit-info p {
+    color: #666; /* Gray text color */
+    margin-top: 15px;
+}
+
+.fruit-info .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #ff6f61; /* Light red background color */
+    cursor: pointer;
+}
+
+.fruit-image img {
+    max-width: 100%; /* Set maximum width for the images */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for images */
+}
+
+/* Styling for the fruit image section */
+.fruit-image {
+    text-align: center;
+}
+
+.fruit-image img {
+    max-width: 100%; /* Set maximum width for the image */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for the image */
+}
+
+/* Styling for the testimonial section */
+#testimonial-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f5f5f5; /* Light gray background color */
+}
+
+#testimonial-section .section-title {
+    font-size: 2.5em;
+    color: #333; /* Dark text color */
+}
+
+#testimonial-section .section-line {
+    width: 50px;
+    border: 2px solid #333; /* Dark border color */
+    margin: 20px auto;
+}
+
+.testimonial-image {
+    margin-bottom: 20px;
+}
+
+.testimonial-image img {
+    max-width: 150px; /* Set maximum width for the testimonial image */
+    height: auto;
+    border-radius: 50%; /* Circular border radius for the image */
+}
+
+#testimonial-section p {
+    font-size: 1.2em;
+    color: #666; /* Gray text color */
+    margin-bottom: 30px;
+}
+
+.testimonial-content p {
+    color: #666; /* Gray text color */
+    font-style: italic;
+    line-height: 1.6;
+}
+    /* Styling for the two-divs section */
+#two-divs-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Light gray background color */
+}
+
+.left-div {
+    width: 45%;
+}
+
+.left-div h2 {
+    font-size: 2.5em;
+    color: #333; /* Dark text color */
+}
+
+.left-div form {
+    margin-top: 20px;
+}
+
+.left-div input,
+.left-div textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd; /* Light border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.left-div button {
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #f54f4f; /* Light red background color */
+    border: none;
+    cursor: pointer;
+}
+
+.left-div button:hover {
+    background-color: #e63939; /* Darker red on hover */
+}
+
+.right-div {
+    width: 45%;
+}
+
+/* Styling for the footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+/* Styling for the header */
+header {
+    background-color: #fff; /* White background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-text {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    max-width: 50px; /* Adjust based on your logo size preference */
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 1.5em;
+    color: #333; /* Dark text color */
+}
+
+.navbar-nav {
+    margin-right: 0;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    color: #333; /* Dark text color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #f54f4f; /* Light red color on hover */
+}
